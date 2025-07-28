@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.mainBackground {
+  height: 500px;
+  background-color: #1f2937;
+}
+.mainText {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.headerLogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.subtext {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #e5e7eb;
+}
+/* div {
+  border: 2px solid black;
+} */
+.container {
+  height: 70px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.navbar ul {
+  display: flex;
+}
+.container .navbar {
+  justify-content: space-around;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.container .navbar ul li {
+  padding: 10px;
+  margin: 0 10px;
+}
+.secondcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 400px;
+  padding-right: 450px;
+  justify-content: space-between;
+}
+.imageBox {
+  height: 200px;
+  width: 450px;
+  background-color: rgba(109, 116, 125, 1);
+  text-align: center;
+  line-height: 200px;
+}
+.imageBox p {
+  color: #e5e7eb;
+}
+button {
+  text-align: center;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+.infoText {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.infoTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.blueBox {
+  height: 150px;
+  width: 150px;
+  margin: 8px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+.boxContainer {
+  height: 300px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+}
+.insideText {
+  width: 182px;
+  text-align: center;
+}
+.smallContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.thirdBigBox {
+  height: 500px;
+}
+.blockquote {
+  height: 500px;
+  width: 100%;
+  background-color: lightgrey;
+}
+.blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+blockquote {
+  font-size: 36px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote p {
+  font-weight: 300;
+}
+.quoteText {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgrey;
+}
+.callToActionBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+.callToActionBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 150px;
+  width: 1100px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 30px;
+  padding-left: 100px;
+  font-size: 18px;
+  color: white;
+}
+.callToActionBlock h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.signUpBtn {
+  position: absolute;
+  right: 400px;
+  color: white;
+  border: 1px solid white;
+  width: 200px;
+}
+.copyrightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  color: white;
+  background-color: rgb(31, 41, 55);
+}
